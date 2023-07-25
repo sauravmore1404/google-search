@@ -1,0 +1,57 @@
+h1 {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 90px;
+  color: #4285f4;
+}
+span.redColor {
+  color: #ea4335;
+}
+span.yellowColor {
+  color: #fcd35d;
+}
+span.greenColor {
+  color: #34a853;
+}
+div.imgRapper {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+}
+div.searchbarRapper {
+  position: absolute;
+  left: 50%;
+  top: 37%;
+  transform: translate(-50%, -50%);
+}
+input {
+  width: 550px;
+  height: 25px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 5px 0;
+  padding-left: 35px;
+  padding-right: 50px;
+  outline: none;
+}
+input:hover {
+  box-shadow: 0 0 5px gray;
+  border: none;
+  outline: none;
+}
+svg.searchIcon {
+  position: relative;
+  top: 29px;
+  left: 10px;
+}
+svg.micIcon {
+  position: relative;
+  top: 29px;
+  left: 560px;
+}
+svg.cameraIcon {
+  position: relative;
+  top: 29px;
+  left: 570px;
+}
